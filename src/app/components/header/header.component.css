@@ -1,0 +1,10 @@
+.header{
+    width:100%;
+    text-align: center;
+}
+.header__title{
+    border-bottom:1px solid #eee;
+}
+.header__title h1{
+    padding: 23px 0;
+}

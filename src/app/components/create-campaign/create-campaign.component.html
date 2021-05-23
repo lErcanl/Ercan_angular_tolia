@@ -1,0 +1,10 @@
+<app-sidebar></app-sidebar>
+<app-header></app-header>
+<div class="createElement__container">
+    <div class="createElement__container__form">
+    <input type="text" placeholder="Kampanya adı" #campaignName>
+    <textarea name="" id="" cols="30" placeholder="Kampanya Açıklaması" #campaignComment rows="10"></textarea>
+    <button (click)="setCampaign(campaignName.value,campaignComment.value)">Kaydet</button>
+    <!-- <a (click)="getVal(username.value,password.value)">Submit</a> -->
+</div>
+</div>

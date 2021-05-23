@@ -1,0 +1,43 @@
+.sidebar{
+    position: absolute;
+    width:15%;
+    height:100vh;
+    border-right:1px solid black;
+}
+.sidebar__container{
+    padding:0 10px;
+    text-align: center;
+
+}
+.sidebar__container__img{
+    padding-top:10px;
+}
+.sidebar__container__img img{
+    width:70px;
+}
+
+ul{
+    list-style: none;
+    position: relative;
+    z-index: 100;
+}
+ul li{
+    margin-top:10px;
+    cursor:pointer;
+
+}
+
+ul li a{
+    color:cornflowerblue;
+}
+.sidebar__mobile{
+    display:none;
+}
+@media (max-width:767px){
+.sidebar{
+    display:none;
+}
+.sidebar__mobile{
+    display:block !important;
+}
+}

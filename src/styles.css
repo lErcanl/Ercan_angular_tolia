@@ -1,1 +1,33 @@
-/* You can add global styles to this file, and also import other style files */
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+.mr-10{
+    margin-right:10px;
+}
+.mt-10{
+    margin-top:10px;
+}
+.mb-10{
+    margin-bottom: 10px;
+}
+button{
+    cursor:pointer
+}
+input:focus{
+    outline: none !important;
+    border:none !important;
+    box-shadow: 0 0 10px #719ECE;
+}
+textarea:focus{
+    outline: none !important;
+    border:none !important;
+    box-shadow: 0 0 10px #719ECE;
+}
+textarea {
+    border:1px solid #eee;
+    outline: none;
+    text-indent: 10px;
+  }
